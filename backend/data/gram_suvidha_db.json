@@ -1,0 +1,271 @@
+{
+  "members": [
+    {
+      "id": 1,
+      "name": "Sarpanch Rajesh Sharma",
+      "username": "admin",
+      "password_hash": "438352397dc6de2cf3184ba9df6b8ed60fb041bae138c819c1bf77d829849f56",
+      "phone": "9876543210",
+      "role": "super_admin",
+      "categories": [
+        "pothole",
+        "garbage",
+        "lighting",
+        "water",
+        "infrastructure",
+        "other"
+      ],
+      "ward": "All Wards",
+      "active": 1
+    },
+    {
+      "id": 2,
+      "name": "Ramesh Yadav (Ward 1 & Roads)",
+      "username": "ramesh",
+      "password_hash": "d6a91e75e93bcee079db3b8f962f1651b62fb646354dabee921e9be807d431f5",
+      "phone": "9876500001",
+      "role": "member",
+      "categories": [
+        "pothole",
+        "infrastructure"
+      ],
+      "ward": "Ward 1",
+      "active": 1
+    },
+    {
+      "id": 3,
+      "name": "Sunita Devi (Sanitation & Water)",
+      "username": "sunita",
+      "password_hash": "cd135009e02aa198c29e7eb29763dd90db0474c7940d5d0def7aa2c083055ea4",
+      "phone": "9876500002",
+      "role": "member",
+      "categories": [
+        "garbage",
+        "water"
+      ],
+      "ward": "Ward 2",
+      "active": 1
+    },
+    {
+      "id": 4,
+      "name": "Vikram Singh (Electricity & Lights)",
+      "username": "vikram",
+      "password_hash": "a39bbda70125e76e10a1887819a4828b72d5774fc83332cfcc80797d0601b651",
+      "phone": "9876500003",
+      "role": "member",
+      "categories": [
+        "lighting"
+      ],
+      "ward": "Ward 3",
+      "active": 1
+    },
+    {
+      "id": 5,
+      "name": "Geeta Verma (Water & General)",
+      "username": "geeta",
+      "password_hash": "bd52b61e780e4fc6e48f11e191418bfb10d3df4d069cb20a1308e6e87e56838d",
+      "phone": "9876500004",
+      "role": "member",
+      "categories": [
+        "water",
+        "other"
+      ],
+      "ward": "Ward 4",
+      "active": 1
+    }
+  ],
+  "issues": [
+    {
+      "id": 105,
+      "tracking_id": "CVC-41A6F8B9",
+      "category": "water",
+      "description": "kaushik ghus gya",
+      "ward": "Ward 1",
+      "address": "Ward 1",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "photo_path": "",
+      "resolved_photo_path": "",
+      "resolution_note": "",
+      "reporter_name": "sagar",
+      "reporter_phone": "8928976432",
+      "status": "Reported",
+      "priority": "Normal",
+      "assigned_to": 5,
+      "upvotes": 1,
+      "created_at": "2026-11-18T17:50:14.619Z",
+      "updated_at": "2026-11-18T17:50:14.619Z",
+      "resolved_at": null,
+      "log": [
+        {
+          "action": "Reported by citizen",
+          "by_name": "sagar",
+          "note": "Reported from Ward 1",
+          "created_at": "2026-11-18T17:50:14.619Z"
+        },
+        {
+          "action": "Auto-assigned to Geeta Verma (Water & General)",
+          "by_name": "Smart Routing Engine",
+          "note": "Category: water | Ward: Ward 1",
+          "created_at": "2026-11-18T17:50:14.619Z"
+        }
+      ]
+    },
+    {
+      "id": 101,
+      "tracking_id": "CVC-8F3A21B9",
+      "category": "water",
+      "description": "Main handpump near Primary School is drawing muddy water and handle chain is broken.",
+      "ward": "Ward 2",
+      "address": "Ward 2, Near Govt Primary School",
+      "latitude": 28.4595,
+      "longitude": 77.0266,
+      "photo_path": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232d6a8e%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%2280%22%20r%3D%2245%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%22250%22%20width%3D%22568%22%20height%3D%22134%22%20rx%3D%2214%22%20fill%3D%22rgba(0%2C0%2C0%2C0.28)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22305%22%20font-family%3D%22sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EHandpump%20Broken%20-%20Ward%202%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22345%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23f0e6d2%22%3EGeotagged%3A%2028.4595%2C%2077.0266%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+      "resolved_photo_path": "",
+      "resolution_note": "",
+      "reporter_name": "Kishan Lal",
+      "reporter_phone": "9811122233",
+      "status": "Under Review",
+      "priority": "High",
+      "assigned_to": 3,
+      "upvotes": 14,
+      "created_at": "2026-11-15T05:47:11.174Z",
+      "updated_at": "2026-11-17T21:47:11.174Z",
+      "resolved_at": null,
+      "log": [
+        {
+          "action": "Reported by citizen",
+          "by_name": "Kishan Lal",
+          "note": "Initial report submitted with geotag.",
+          "created_at": "2026-11-15T05:47:11.174Z"
+        },
+        {
+          "action": "Auto-assigned to Sunita Devi (Sanitation & Water)",
+          "by_name": "System Router",
+          "note": "Matched category: water & Ward 2",
+          "created_at": "2026-11-15T05:47:11.174Z"
+        },
+        {
+          "action": "Status changed to Under Review",
+          "by_name": "Sunita Devi (Sanitation & Water)",
+          "note": "Mechanic summoned from block office; spare chain ordered.",
+          "created_at": "2026-11-17T21:47:11.174Z"
+        }
+      ]
+    },
+    {
+      "id": 102,
+      "tracking_id": "CVC-4D9E10C2",
+      "category": "pothole",
+      "description": "Deep waterlogged pothole on the main mandi approach road causing tractor trolley accidents.",
+      "ward": "Ward 1",
+      "address": "Ward 1, Mandi Link Road near Banyan Tree",
+      "latitude": 28.4621,
+      "longitude": 77.0312,
+      "photo_path": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%237c5836%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%2280%22%20r%3D%2245%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%22250%22%20width%3D%22568%22%20height%3D%22134%22%20rx%3D%2214%22%20fill%3D%22rgba(0%2C0%2C0%2C0.28)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22305%22%20font-family%3D%22sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EDeep%20Pothole%20-%20Mandi%20Road%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22345%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23f0e6d2%22%3EGeotagged%3A%2028.4621%2C%2077.0312%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+      "resolved_photo_path": "",
+      "resolution_note": "",
+      "reporter_name": "Mahendra Singh",
+      "reporter_phone": "9811122244",
+      "status": "Reported",
+      "priority": "Urgent",
+      "assigned_to": 2,
+      "upvotes": 22,
+      "created_at": "2026-11-14T17:47:11.174Z",
+      "updated_at": "2026-11-14T17:47:11.174Z",
+      "resolved_at": null,
+      "log": [
+        {
+          "action": "Reported by citizen",
+          "by_name": "Mahendra Singh",
+          "note": "Urgent hazard for farm vehicles.",
+          "created_at": "2026-11-14T17:47:11.174Z"
+        },
+        {
+          "action": "Auto-assigned to Ramesh Yadav (Ward 1 & Roads)",
+          "by_name": "System Router",
+          "note": "Matched category: pothole & Ward 1",
+          "created_at": "2026-11-14T17:47:11.174Z"
+        }
+      ]
+    },
+    {
+      "id": 103,
+      "tracking_id": "CVC-7B2C99A4",
+      "category": "lighting",
+      "description": "Solar streetlight pole #14 near Chaupal chowk has stopped working at night.",
+      "ward": "Ward 3",
+      "address": "Ward 3, Gram Chaupal Chowk",
+      "latitude": 28.4568,
+      "longitude": 77.0225,
+      "photo_path": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%233a4856%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%2280%22%20r%3D%2245%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%22250%22%20width%3D%22568%22%20height%3D%22134%22%20rx%3D%2214%22%20fill%3D%22rgba(0%2C0%2C0%2C0.28)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22305%22%20font-family%3D%22sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EBefore%3A%20Dark%20Streetlight%20Pole%20%2314%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22345%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23f0e6d2%22%3EBattery%20controller%20fault%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+      "resolved_photo_path": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%232f6d4d%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%2280%22%20r%3D%2245%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%22250%22%20width%3D%22568%22%20height%3D%22134%22%20rx%3D%2214%22%20fill%3D%22rgba(0%2C0%2C0%2C0.28)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22305%22%20font-family%3D%22sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EAfter%3A%20Solar%20Light%20Repaired%20%26%20Lit%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22345%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23f0e6d2%22%3EVerified%20working%20at%207%3A30%20PM%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+      "resolution_note": "Replaced faulty charge controller fuse and cleaned solar panel.",
+      "reporter_name": "Anita Kumari",
+      "reporter_phone": "9811122255",
+      "status": "Resolved",
+      "priority": "Normal",
+      "assigned_to": 4,
+      "upvotes": 9,
+      "created_at": "2026-11-16T17:47:11.174Z",
+      "updated_at": "2026-11-18T05:47:11.174Z",
+      "resolved_at": "2026-11-18T05:47:11.174Z",
+      "log": [
+        {
+          "action": "Reported by citizen",
+          "by_name": "Anita Kumari",
+          "note": "Complete darkness near chaupal intersection.",
+          "created_at": "2026-11-16T17:47:11.174Z"
+        },
+        {
+          "action": "Auto-assigned to Vikram Singh (Electricity & Lights)",
+          "by_name": "System Router",
+          "note": "Matched category: lighting & Ward 3",
+          "created_at": "2026-11-16T17:47:11.174Z"
+        },
+        {
+          "action": "Status changed to Resolved",
+          "by_name": "Vikram Singh (Electricity & Lights)",
+          "note": "Replaced faulty charge controller fuse and cleaned solar panel.",
+          "created_at": "2026-11-18T05:47:11.174Z"
+        }
+      ]
+    },
+    {
+      "id": 104,
+      "tracking_id": "CVC-9A1F55E8",
+      "category": "garbage",
+      "description": "Overflowing waste dump near the pond embankment causing foul smell and mosquito breeding.",
+      "ward": "Ward 2",
+      "address": "Ward 2, Village Pond East Bank",
+      "latitude": 28.4609,
+      "longitude": 77.0241,
+      "photo_path": "data:image/svg+xml;utf8,%3Csvg%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%20width%3D%22640%22%20height%3D%22420%22%20viewBox%3D%220%200%20640%20420%22%3E%0A%20%20%20%20%3Crect%20width%3D%22100%25%22%20height%3D%22100%25%22%20fill%3D%22%236e5b3b%22%2F%3E%0A%20%20%20%20%3Ccircle%20cx%3D%22540%22%20cy%3D%2280%22%20r%3D%2245%22%20fill%3D%22rgba(255%2C255%2C255%2C0.18)%22%2F%3E%0A%20%20%20%20%3Crect%20x%3D%2236%22%20y%3D%22250%22%20width%3D%22568%22%20height%3D%22134%22%20rx%3D%2214%22%20fill%3D%22rgba(0%2C0%2C0%2C0.28)%22%2F%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22305%22%20font-family%3D%22sans-serif%22%20font-size%3D%2228%22%20font-weight%3D%22bold%22%20fill%3D%22%23ffffff%22%3EGarbage%20Overflow%20-%20Pond%20Bank%3C%2Ftext%3E%0A%20%20%20%20%3Ctext%20x%3D%2258%22%20y%3D%22345%22%20font-family%3D%22sans-serif%22%20font-size%3D%2218%22%20fill%3D%22%23f0e6d2%22%3ENeeds%20sanitation%20tractor%20clearance%3C%2Ftext%3E%0A%20%20%3C%2Fsvg%3E",
+      "resolved_photo_path": "",
+      "resolution_note": "",
+      "reporter_name": "Suresh Prajapati",
+      "reporter_phone": "9811122266",
+      "status": "Reported",
+      "priority": "Normal",
+      "assigned_to": 3,
+      "upvotes": 7,
+      "created_at": "2026-11-17T23:47:11.174Z",
+      "updated_at": "2026-11-17T23:47:11.174Z",
+      "resolved_at": null,
+      "log": [
+        {
+          "action": "Reported by citizen",
+          "by_name": "Suresh Prajapati",
+          "note": "Submitted with location coordinates.",
+          "created_at": "2026-11-17T23:47:11.174Z"
+        },
+        {
+          "action": "Auto-assigned to Sunita Devi (Sanitation & Water)",
+          "by_name": "System Router",
+          "note": "Matched category: garbage & Ward 2",
+          "created_at": "2026-11-17T23:47:11.174Z"
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "gram-suvidha-monorepo",
+  "version": "2.0.0",
+  "private": true,
+  "description": "Gram Suvidha - Rural Civic Issue Reporting & Gram Panchayat Governance Platform",
+  "scripts": {
+    "setup": "npm install && npm --prefix backend install && npm --prefix frontend install",
+    "dev": "concurrently -n \"BACKEND,FRONTEND\" -c \"green,cyan\" \"npm --prefix backend run dev\" \"npm --prefix frontend run dev\"",
+    "build:frontend": "npm --prefix frontend run build",
+    "build": "npm --prefix backend install && npm --prefix frontend install && npm --prefix frontend run build",
+    "start": "npm --prefix backend start"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2"
+  }
+}
